@@ -20,24 +20,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # 如果未启用 lastUpdated，可以去掉
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: npm       # ← pnpm 改成 npm
+          node-version: 20
+          cache: npm
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        run: npm ci        # ← 没有 package-lock.json 就改成 npm install
+        run: npm ci
 
       - name: Build with VitePress
         run: |
           npm run docs:build
-          touch .vitepress/dist/.nojekyll   # ← 建到 dist 里面才会被上传
+          touch .vitepress/dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
