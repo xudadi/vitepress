@@ -3,6 +3,7 @@ import { set_sidebar } from "../utils/index";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress/',
   head: [["link", { rel: "icon", href: "/img.jpg" }]],
   title: "少儿编程社团",
   description: "A VitePress Site",
