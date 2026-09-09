@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./chunks/framework.CIyF0RrB.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"project/website/后端.md","filePath":"project/website/后端.md"}'),a={name:"project/website/后端.md"};function o(s,c,n,p,i,_){return t(),r("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./chunks/framework.CIyF0RrB.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"project/website/数据库.md","filePath":"project/website/数据库.md"}'),a={name:"project/website/数据库.md"};function o(s,c,n,p,_,i){return t(),r("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
